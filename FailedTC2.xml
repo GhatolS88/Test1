@@ -1,0 +1,20 @@
+
+<suite name="failed Suite[suit]">
+  <test name="Test(failed)">
+    <classes>
+    
+      <class name="TestNG.Failed_TC1">
+      <Method>
+      <include name="TC9"></include>
+      </Method>
+      </class>
+      
+      <class name="TestNG.failed_Tc">
+      <Method>
+      <include name="TC6"></include>
+      </Method>
+      </class>
+      
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Suite -->

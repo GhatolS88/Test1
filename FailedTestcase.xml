@@ -1,0 +1,18 @@
+
+<suite name=" failed suit [Suite]">
+  <test  name="Test(failed)">
+    <classes>
+      <class name="TestNG.Demo3">
+      <methods>
+      <include  name="TC5"/>
+      </methods>
+      </class>
+      
+      <class name="TestNG.Demo2">
+      <methods>
+      <include  name="TC4"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

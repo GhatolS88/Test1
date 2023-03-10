@@ -1,0 +1,21 @@
+
+<suite name="Suite"  parallei="tests">
+  <test  name="Test1">
+    <classes>
+      <class name="TestNG.parallel1"/>
+      </classes>
+  </test> <!-- Test -->
+
+  <test  name="Test2">
+    <classes>
+      <class name="TestNG.Parallel2"/>
+      </classes>
+  </test> <!-- Test -->
+
+
+  <test  name="Test3">
+    <classes>
+     <class name="TestNG.Parallel3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
